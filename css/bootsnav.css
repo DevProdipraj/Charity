@@ -566,11 +566,10 @@ body.on-side .body-overlay {
 }
 #UserLoginBtn {
   margin-top: 28px;
-  padding: 3px 15px;
+  padding: 4px 25px;
   border-radius: 5px;
   border: none;
   font-size: 16px;
-
   color: #fff;
   background: #BF3654;
   cursor: pointer;
@@ -771,9 +770,9 @@ nav.navbar.bootsnav {
   nav.navbar.bootsnav ul.nav .dropdown-menu .dropdown-menu {
     margin-top: -2px;
   }
-  .f_donateBtnBox{
+  #f_donateBtnBox{
     text-align: center;
-    margin-top: 15px;
+   
   }
   nav.navbar.bootsnav ul.nav.navbar-right .dropdown-left .dropdown-menu .dropdown-menu {
     left: -200px;
@@ -1947,10 +1946,10 @@ nav.navbar.bootsnav {
     padding-top: 30px;
     padding-bottom: 30px;
   }
-  .f_donateBtnBox{
+  #f_donateBtnBox{
     text-align: center;
-    margin-top: 15px;
-  }
+    margin-top: 20px;
+    }
 }
 
 .navbar-brand>img {
@@ -2355,4 +2354,9 @@ nav.bootsnav.navbar-full .navbar-toggle:hover i, nav.bootsnav.navbar-full .navba
 
 body.wrap-nav-sidebar {
   height: auto !important;
+}
+
+
+#f_donateBtnBox{
+  margin-top: 20px !important;
 }
