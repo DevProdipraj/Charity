@@ -1,6 +1,16 @@
 /*================================ 
     #RESPONSIVE CSS 
 ====================================*/
+@media only screen and (min-width: 991px){
+  .register_form_container{
+    padding: 7rem 0rem !important;
+ }
+  .wrappers{
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+}
 
 /* Tablet Layout: 768px.*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -11,6 +21,16 @@
     margin-top: 8px;
     width: 100%;
   }
+
+  /* loging from  */
+  .conter {
+    background-color: #f5f5f5;
+     width: 50%;
+      margin: 2rem auto;
+      padding: 2rem 0rem;
+      border-radius: 40px;
+  }
+  
 
   .topbar-button {
     display: none;
@@ -159,6 +179,9 @@
   .donation-form .client-review {
     margin-top: 30px;
   }
+
+
+
 
 
   /* Team */
@@ -1018,7 +1041,7 @@
 }
 
 /* Wide Mobile Layout: 480px. */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 400px) and (max-width: 767px) {
 
   .portfolio-area .portfolio-items .pf-item,
      .portfolio-area .portfolio-items.col-3 .pf-item,
@@ -1030,6 +1053,17 @@
 
   .portfolio-area .pf-item .info a {
     margin-bottom: 5px;
+  }
+   /* login from  */
+   .login_form{
+    padding: 2rem;
+  }
+  .conter {
+    background-color: #f5f5f5;
+      width: 100%;
+      margin: 1rem auto;
+      padding: 1rem 1rem;
+      border-radius: 40px;
   }
 }
 
@@ -1121,4 +1155,28 @@
   .blog-area .blog-items .info .bottom-info ul li {
     margin-top: 5px;
   }
+
+
+    /* login from  */
+    .login_form{
+      padding: 2rem;
+    }
+    .conter {
+      background-color: #f5f5f5;
+        width: 100%;
+        margin: 1rem auto;
+        padding: 1rem 1rem;
+        border-radius: 40px;
+    }
+
+    /* registation from  */
+     
+
+  .register_form_container {
+    background-color: #1d2024;
+    padding: 4rem 2rem;
+}
+    .wrappers{
+      margin:2rem 0rem;
+    }
 }
